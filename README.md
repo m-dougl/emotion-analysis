@@ -24,4 +24,9 @@ The repository currently relies on the `main.ipynb`, `oversampling_test.ipynb`, 
 
 * `dataset.xlsx`: This has the data set collected by the authors of the present project, having 173 comments in Portuguese classified as Joy, Sadness and Surprise.
 
-# 
+# About installing the libraries
+
+You can install the necessary packages to run the code using the command in the terminal:
+```
+pip install -r requirements.txt
+```
