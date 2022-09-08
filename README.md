@@ -1,11 +1,7 @@
 # Emotion analysis and classification of short comments using machine learning techniques
-<<<<<<< HEAD
-:smiley: :roll_eyes: :pensive: :sob:
-=======
 
 :smiley: :roll_eyes: :pensive: :sob:
 
->>>>>>> 612a588548e0dabffd920236021fce2e70df0a5c
 This repository contains codes that allow studying supervised machine learning models for short text comment classification tasks.
 
 # Pytho Environment
