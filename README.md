@@ -4,7 +4,7 @@
 
 This repository contains codes that allow studying supervised machine learning models for short text comment classification tasks.
 
-# Pytho Environment
+# Python Environment
 
 The project requires Python 3.8 or higher.
 You can check the Python version using the command in terminal:
