@@ -43,7 +43,7 @@ def tokenize(txt):
     return RegexpTokenizer('\w+').tokenize(txt)
 
 def untokenize(txt):
-    return (' ').join(i for i in txt if len(i)>1)
+    return (' ').join(i for i in txt if len(i)>2)
 
 def remove_stopwords(txt):
     return [w for w in txt if w not in nltk.corpus.stopwords.words('portuguese')]
@@ -112,7 +112,7 @@ def dataset_split(X, y, train_size):
     X_train, X_test, y_train, y_test = train_test_split(X, y,
                                                        train_size   = train_size,
                                                        stratify       = y,
-                                                       random_state = 0,
+                                                       random_state = 42,
                                                        shuffle      = True)
     return X_train, X_test, y_train, y_test
 
